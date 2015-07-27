@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		779AA3AB1B613A4A00ED9BDF /* NavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779AA3AA1B613A4A00ED9BDF /* NavController.swift */; };
 		77D002961B57949F009EB382 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D002951B57949F009EB382 /* AppDelegate.swift */; };
 		77D002981B57949F009EB382 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D002971B57949F009EB382 /* ViewController.swift */; };
 		77D0029B1B57949F009EB382 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77D002991B57949F009EB382 /* Main.storyboard */; };
@@ -14,6 +15,13 @@
 		77D002A01B57949F009EB382 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77D0029E1B57949F009EB382 /* LaunchScreen.storyboard */; };
 		77D002AB1B57949F009EB382 /* QQFrameWorkDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D002AA1B57949F009EB382 /* QQFrameWorkDemoTests.swift */; };
 		77D002B61B57949F009EB382 /* QQFrameWorkDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D002B51B57949F009EB382 /* QQFrameWorkDemoUITests.swift */; };
+		77D002C51B5794E6009EB382 /* SliderMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D002C41B5794E6009EB382 /* SliderMenuViewController.swift */; };
+		77D002C71B57953B009EB382 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D002C61B57953B009EB382 /* LeftViewController.swift */; };
+		77D002C91B57954A009EB382 /* RightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D002C81B57954A009EB382 /* RightViewController.swift */; };
+		77D002CB1B57955F009EB382 /* CenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D002CA1B57955F009EB382 /* CenterViewController.swift */; };
+		77D002CF1B57992B009EB382 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D002CE1B57992B009EB382 /* MessageViewController.swift */; };
+		77D002D11B579940009EB382 /* FriendsViewContorller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D002D01B579940009EB382 /* FriendsViewContorller.swift */; };
+		77D002D41B57995A009EB382 /* DynamicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D002D31B57995A009EB382 /* DynamicViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		779AA3AA1B613A4A00ED9BDF /* NavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavController.swift; sourceTree = "<group>"; };
 		77D002921B57949F009EB382 /* QQFrameWorkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QQFrameWorkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77D002951B57949F009EB382 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77D002971B57949F009EB382 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,13 @@
 		77D002B11B57949F009EB382 /* QQFrameWorkDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQFrameWorkDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		77D002B51B57949F009EB382 /* QQFrameWorkDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QQFrameWorkDemoUITests.swift; sourceTree = "<group>"; };
 		77D002B71B57949F009EB382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77D002C41B5794E6009EB382 /* SliderMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderMenuViewController.swift; sourceTree = "<group>"; };
+		77D002C61B57953B009EB382 /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+		77D002C81B57954A009EB382 /* RightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightViewController.swift; sourceTree = "<group>"; };
+		77D002CA1B57955F009EB382 /* CenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterViewController.swift; sourceTree = "<group>"; };
+		77D002CE1B57992B009EB382 /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		77D002D01B579940009EB382 /* FriendsViewContorller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsViewContorller.swift; sourceTree = "<group>"; };
+		77D002D31B57995A009EB382 /* DynamicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +113,9 @@
 		77D002941B57949F009EB382 /* QQFrameWorkDemo */ = {
 			isa = PBXGroup;
 			children = (
+				77D002CD1B5798FD009EB382 /* TabBarViewControllers */,
+				77D002CC1B5798DD009EB382 /* SliderViewController */,
+				77D002C31B5794B8009EB382 /* SliderMenu */,
 				77D002951B57949F009EB382 /* AppDelegate.swift */,
 				77D002971B57949F009EB382 /* ViewController.swift */,
 				77D002991B57949F009EB382 /* Main.storyboard */,
@@ -123,6 +142,35 @@
 				77D002B71B57949F009EB382 /* Info.plist */,
 			);
 			path = QQFrameWorkDemoUITests;
+			sourceTree = "<group>";
+		};
+		77D002C31B5794B8009EB382 /* SliderMenu */ = {
+			isa = PBXGroup;
+			children = (
+				77D002C41B5794E6009EB382 /* SliderMenuViewController.swift */,
+			);
+			name = SliderMenu;
+			sourceTree = "<group>";
+		};
+		77D002CC1B5798DD009EB382 /* SliderViewController */ = {
+			isa = PBXGroup;
+			children = (
+				77D002C61B57953B009EB382 /* LeftViewController.swift */,
+				77D002C81B57954A009EB382 /* RightViewController.swift */,
+				77D002CA1B57955F009EB382 /* CenterViewController.swift */,
+				779AA3AA1B613A4A00ED9BDF /* NavController.swift */,
+			);
+			name = SliderViewController;
+			sourceTree = "<group>";
+		};
+		77D002CD1B5798FD009EB382 /* TabBarViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				77D002D01B579940009EB382 /* FriendsViewContorller.swift */,
+				77D002CE1B57992B009EB382 /* MessageViewController.swift */,
+				77D002D31B57995A009EB382 /* DynamicViewController.swift */,
+			);
+			name = TabBarViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,8 +303,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77D002D11B579940009EB382 /* FriendsViewContorller.swift in Sources */,
+				77D002C51B5794E6009EB382 /* SliderMenuViewController.swift in Sources */,
+				77D002C71B57953B009EB382 /* LeftViewController.swift in Sources */,
+				77D002C91B57954A009EB382 /* RightViewController.swift in Sources */,
+				77D002CB1B57955F009EB382 /* CenterViewController.swift in Sources */,
+				779AA3AB1B613A4A00ED9BDF /* NavController.swift in Sources */,
 				77D002981B57949F009EB382 /* ViewController.swift in Sources */,
+				77D002D41B57995A009EB382 /* DynamicViewController.swift in Sources */,
 				77D002961B57949F009EB382 /* AppDelegate.swift in Sources */,
+				77D002CF1B57992B009EB382 /* MessageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,6 +539,7 @@
 				77D002BC1B57949F009EB382 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		77D002BD1B57949F009EB382 /* Build configuration list for PBXNativeTarget "QQFrameWorkDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +548,7 @@
 				77D002BF1B57949F009EB382 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		77D002C01B57949F009EB382 /* Build configuration list for PBXNativeTarget "QQFrameWorkDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +557,7 @@
 				77D002C21B57949F009EB382 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

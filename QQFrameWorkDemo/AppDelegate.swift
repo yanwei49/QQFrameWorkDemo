@@ -15,7 +15,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+
+        window?.frame = UIScreen.mainScreen().bounds
+        window?.backgroundColor = UIColor.whiteColor()
+        
+        let sliderVC = SliderMenuViewController.sharedInstance
+        sliderVC.leftVC = LeftViewController()
+        sliderVC.rightVC = RightViewController()
+        sliderVC.centerVC = NavController(rootViewController: CenterViewController())
+        
+        window?.rootViewController = sliderVC
+        
         return true
     }
 
